@@ -1,5 +1,7 @@
 # calculator1
 
-A simple browser-based calculator.
+A browser-based calculator built with HTML, CSS, and JavaScript.
 
-Open `index.html` in any modern web browser to use it.
+Open `index.html` in any modern web browser to use it. The calculator supports addition,
+subtraction, multiplication, division, percentages, sign changes, decimals, and
+keyboard input. Press `Escape` to clear and `Backspace` to delete the last digit.

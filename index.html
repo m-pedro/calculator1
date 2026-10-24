@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f1f0e8" />
+    <title>Calculator | Counterpoint</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="calculator" aria-label="Calculator">
+      <header class="topbar">
+        <span class="wordmark">COUNTERPOINT</span>
+        <span class="edition">DESK UNIT <span>01</span></span>
+      </header>
+
+      <section class="display" aria-label="Display">
+        <p class="expression" id="expression" aria-live="polite"></p>
+        <output class="result" id="result" aria-live="assertive">0</output>
+      </section>
+
+      <section class="keypad" aria-label="Calculator keys">
+        <button class="key key-utility" type="button" data-action="clear" aria-label="All clear">AC</button>
+        <button class="key key-utility" type="button" data-action="sign" aria-label="Toggle sign">+/−</button>
+        <button class="key key-utility" type="button" data-action="percent" aria-label="Percent">%</button>
+        <button class="key key-operator" type="button" data-operator="/" aria-label="Divide">÷</button>
+
+        <button class="key" type="button" data-digit="7">7</button>
+        <button class="key" type="button" data-digit="8">8</button>
+        <button class="key" type="button" data-digit="9">9</button>
+        <button class="key key-operator" type="button" data-operator="*" aria-label="Multiply">×</button>
+
+        <button class="key" type="button" data-digit="4">4</button>
+        <button class="key" type="button" data-digit="5">5</button>
+        <button class="key" type="button" data-digit="6">6</button>
+        <button class="key key-operator" type="button" data-operator="-" aria-label="Subtract">−</button>
+
+        <button class="key" type="button" data-digit="1">1</button>
+        <button class="key" type="button" data-digit="2">2</button>
+        <button class="key" type="button" data-digit="3">3</button>
+        <button class="key key-operator" type="button" data-operator="+" aria-label="Add">+</button>
+
+        <button class="key key-zero" type="button" data-digit="0">0</button>
+        <button class="key" type="button" data-action="decimal" aria-label="Decimal point">.</button>
+        <button class="key key-equals" type="button" data-action="equals" aria-label="Equals">=</button>
+      </section>
+
+      <footer class="footer">
+        <span>READY FOR INPUT</span>
+        <span>JS / HTML / CSS</span>
+      </footer>
+    </main>
+  </body>
+</html>
